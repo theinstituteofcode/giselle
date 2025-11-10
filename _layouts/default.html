@@ -136,24 +136,58 @@
 </div> -->
 
 
-  <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) — single loader for GA4 + Google Ads -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YSPWSVRQK7"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){ dataLayer.push(arguments); }
+
+  // (Optional) Consent Mode — only if you actually have consent
+  // gtag('consent', 'default', {
+  //   'ad_storage': 'granted',
+  //   'analytics_storage': 'granted'
+  // });
+
   gtag('js', new Date());
 
-  gtag('config', 'G-YSPWSVRQK7');
+  // Configure both properties with one gtag instance
+  gtag('config', 'G-YSPWSVRQK7');        // GA4
+  gtag('config', 'AW-17637522395');       // Google Ads
 </script>
 
 
-  <!-- Google tag (gtag.js) Google Ads -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17637522395"></script>
+  
+<!-- Google Ads Conversion Tracking for "Make a Reservation" -->
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'AW-17637522395');
+  function gtag_report_conversion(url) {
+    // Define a callback for after the event is sent
+    var callback = function () {
+      if (typeof url !== 'undefined') {
+        window.location.href = url;
+      }
+    };
+
+    // Send the conversion event to Google Ads
+    gtag('event', 'conversion', {
+      'send_to': 'AW-17637522395/MsXcCKGEvKobENv3nNpB',
+      'event_callback': callback
+    });
+
+    // Add a short delay (0.5 second) to ensure event fires before redirect
+    setTimeout(callback, 500);
+    return false;
+  }
+
+  // Attach click listener to all .book-now links
+  document.addEventListener('DOMContentLoaded', function () {
+    var links = document.querySelectorAll('.book-now-button');
+    links.forEach(function (el) {
+      el.addEventListener('click', function (e) {
+        e.preventDefault();
+        gtag_report_conversion(el.href);
+      });
+    });
+  });
 </script>
 
 
