@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<header class="base-section md:min-h-[70vh] bg-cover bg-center text-center relative z-20 md:py-[5vh]">
+    <div class="mx-auto flex flex-col content-between md:min-h-[70vh] relative z-30">
+        {% include nav.html color = page.banner.text-color  %}
+         <div class="mobile-banner bg-cover bg-cneter py-[25vh] md:py-0 my-[9rem] md:my-auto mx-[5%]">
+                <div class="text-center">
+                    <h2>
+                        {{page.banner.heading}}
+                    </h2>
+                </div>
+        </div>
+    </div>
+</header>
+<style>
+
+    
+    header h2 {
+    color: {{page.banner.text-color}};
+    font-family: "La Belle Aurore", cursive;
+    font-size: min(15vw, 10rem);
+    }
+
+    .mobile-banner{
+        background-image: url('{{page.banner.image}}');
+    }
+
+    @media screen and (min-width: 768px) {
+        .mobile-banner{
+            background-image: none;
+        }
+        header {
+            background-image: url('{{page.banner.image}}');
+            color: {{page.banner.text-color}};
+        }
+    }
+</style>
+
+<section >
+    <div class="max-w-screen-lg m-auto p-4 blog">
+        {{ content }}
+
+    </div>
+
+</section>
