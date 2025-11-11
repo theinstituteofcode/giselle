@@ -25,13 +25,13 @@ menus:
         price: 75
         text-color: '#9f4837'
       - dish_name: Beef Tartare, Potato Millefeuilles
-        image: /uploads/beef-tartare-potato-millefeuilles-1.jpg
+        image: /uploads/beef-tartare.png
         price: 65
         text-color: '#9f4837'
       - dish_name: Sea Bream Tartelette, Yuzu
         image: /uploads/sea-bream-tartelette-yuzu-1.jpg
         price: 45
-        text-color: '#ffffff'
+        text-color: '#9f4837'
       - dish_name: Marinated Sweet Peppers, Herb Butter, Sardine
         image: /uploads/marinated-sweet-peppers-herb-butter-sardine.jpg
         price: 45
@@ -49,7 +49,7 @@ menus:
       - dish_name: Bread and Butter
         image: /uploads/bread-and-butter-1.jpg
         price: 50
-        text-color: '#9f4837'
+        text-color: '#fff'
       - dish_name: 'Jamón Ibérico Bellota '
         image: /uploads/jamo-n-ibe-rico-bellota-1.jpg
         price: 250
@@ -73,7 +73,7 @@ menus:
       - dish_name: Ashari Clams, Sake, Beurre Blanc
         image: /uploads/ashari-clams-sake-beurre-blanc-2.jpg
         price: 350
-        text-color: '#9f4837'
+        text-color: '#fff'
       - dish_name: Gazpacho, Jamón Ibérico, Melon
         image: /uploads/gazpacho-jamo-n-ibe-rico-melon.jpg
         price: 110
@@ -109,11 +109,11 @@ menus:
         price: 190
         text-color: '#9f4837'
       - dish_name: Smoked Salmon Trout, Avocado, Jalapeno
-        image: 
+        image: '/uploads/smoked-salmon-trout-avocado.png'
         price: 250
         text-color:
       - dish_name: 'Hamachi, Pomelo, Grapes, Dashi'
-        image: 
+        image: '/uploads/hamachi.jpg'
         price: 150
         text-color:
       - dish_name: Mahi Mahi, Straciatella, Tarragon,  Red Shiso
@@ -143,7 +143,7 @@ menus:
         price: 870
         text-color: '#9f4837'
       - dish_name: Wagyu Tomahawk MB8
-        image: /uploads/wagyu-tomahawk-mb8-1.jpg
+        image: 
         price: 250 per 100gr
         text-color: '#9f4837'
   - name: wood - fired
@@ -155,7 +155,7 @@ menus:
       - dish_name: ' Grilled Catch of the Day, Sweet Peppers, Carrot Puree '
         image:
         price: '260'
-        text-color:
+        text-color: '#9f4837'
       - dish_name: Grilled Octopus Leg, Miso Corn, Smoked Potato Espuma
         image: /uploads/grilled-octopus-leg-miso-corn-smoked-potato-espuma.jpg
         price: 190
@@ -205,11 +205,11 @@ menus:
   - name: sides
     dishes:
       - dish_name: "Mashed Potatoes\_"
-        image: /assets/images/dish-1.png
+        image: 
         price: 70
         text-color: '#9f4837'
       - dish_name: "French Fries\_"
-        image: /assets/images/dish-1.png
+        image: 
         price: 40
         text-color: '#9f4837'
       - dish_name: "Wood Fired Broccolini, Egg Yolk, Miso\_"
@@ -221,7 +221,7 @@ menus:
         price: 50
         text-color: '#9f4837'
       - dish_name: Riviera Salad, Ventresca, Green Beans, Baby Potatoes
-        image: /assets/images/dish-1.png
+        image: 
         price: 80
         text-color: '#9f4837'
   - name: dessert
@@ -231,11 +231,11 @@ menus:
         price: 75
         text-color: '#9f4837'
       - dish_name: Hazelnut and Vanilla Millefeuille, Praline
-        image: /assets/images/dish-1.png
+        image: 
         price: 75
         text-color: '#9f4837'
       - dish_name: Clafoutis, Seasonal Fruit
-        image: /assets/images/dish-1.png
+        image: 
         price: 65
         text-color: '#9f4837'
       - dish_name: Profiteroles, Chantilly, Grand Cru Chocolate Sauce
@@ -249,27 +249,27 @@ menus:
   - name: dessert cocktails
     dishes:
       - dish_name: Espresso - Vodka, Coffee, Kahlua
-        image: /assets/images/dish-1.png
+        image: 
         price: 130
         text-color: '#9f4837'
       - dish_name: Latte - Vodka, Bailey’s, Frangelico, Coffee, Cream
-        image: /assets/images/dish-1.png
+        image: 
         price: 150
         text-color: '#9f4837'
       - dish_name: Chocolate - Cognac, Chocolate, Caramel, Coffee
-        image: /assets/images/dish-1.png
+        image: 
         price: 130
         text-color: '#9f4837'
       - dish_name: Amaretto Sour
-        image: /assets/images/dish-1.png
+        image: 
         price: 160
         text-color: '#9f4837'
       - dish_name: Chocolate Old Fashioned
-        image: /assets/images/dish-1.png
+        image: 
         price: 130
         text-color: '#9f4837'
       - dish_name: B52 - A kiss with heat
-        image: /assets/images/dish-1.png
+        image: 
         price: 70
         text-color: '#9f4837'
 footer:
@@ -389,19 +389,19 @@ seo:
 
               <div class="image-grid grid-cols-3 hidden overflow-scroll max-w-full px-(--side-padding)">
                 {% for food in menu.dishes %}
-                  {% if food.image %}
-                    <div class="relative flex justify-center items-end" style="aspect-ratio: 3/4;">
-                      <img src="{{food.image}}" alt="{{food.dish_name}}" class="w-full h-full object-cover absolute inset-0" />
-                      <div class="relative text-center" style="color:{{food.text-color}}">
-                        <p>
+                <div class="relative flex justify-center items-end" style="aspect-ratio: 3/4;">
+                  <img src="{{food.image | default: '/uploads/placeholder.jpg'}}" alt="{{food.dish_name}}" class="w-full h-full object-cover absolute inset-0" />
+                  <div class="relative text-center" style="color:{{food.text-color}}">
+                    <p>
                           {{food.dish_name}}
                         </p>
                         <p>
                           {{food.price}}
                         </p>
                       </div>
-                  </div>
-                  {% endif %}
+                    </div>
+                    {% if food.image %}
+                    {% endif %}
                 {% endfor %}
               </div>
 
