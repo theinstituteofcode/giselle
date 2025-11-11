@@ -391,11 +391,11 @@ seo:
                 {% for food in menu.dishes %}
                 <div class="relative flex justify-center items-end" style="aspect-ratio: 3/4;">
                   <img src="{{food.image | default: '/uploads/placeholder.jpg'}}" alt="{{food.dish_name}}" class="w-full h-full object-cover absolute inset-0" />
-                  <div class="relative text-center" style="color:{{food.text-color}}">
-                    <p>
+                  <div class="relative text-center p-2" style="color:{{food.text-color}}">
+                    <p  class="heading">
                           {{food.dish_name}}
                         </p>
-                        <p>
+                        <p  class="heading">
                           {{food.price}}
                         </p>
                       </div>
@@ -497,7 +497,7 @@ console.log(menu,menu.offsetHeight,largestMenu);
 
             </div>
             <div class="text-center">
-              <a href="https://www.sevenrooms.com/explore/giselle/reservations/create/search/" class=" px-8 py-4 inline-block dark-section editable letter-spacing">BOOK NOW</a>
+              <a href="https://www.sevenrooms.com/explore/giselle/reservations/create/search/" class=" px-8 py-4 inline-block dark-section editable letter-spacing book-now-button">BOOK NOW</a>
             </div>
             
 
