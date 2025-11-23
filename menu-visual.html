@@ -337,11 +337,15 @@ seo:
           {% include svg-images/image-menu-icon.html width="45px" %}
         </div>
       </div>
+      
+      {% comment %}
       <div class="flex flex-nowrap overflow-scroll px-(--side-padding)">
         {% for menu in page.menus %}
         <a class="{% if forloop.first %} pl-0 {% endif %} button whitespace-nowrap" href="#{{menu.name | replace: ' ',''}}">{{menu.name}}</a>
         {% endfor %}
       </div>
+      {% endcomment %}
+      
       <div>
         <span>
 
