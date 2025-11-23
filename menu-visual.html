@@ -393,7 +393,7 @@ seo:
 
               <div class="image-grid grid-cols-3 hidden overflow-scroll max-w-full px-(--side-padding)">
                 {% for food in menu.dishes %}
-                <div class="relative flex justify-center items-end" style="aspect-ratio: 3/4;">
+                <div class="relative flex justify-center items-end" style="aspect-ratio: 2/3;">
                   <img src="{{food.image | default: '/uploads/placeholder.jpg'}}" alt="{{food.dish_name}}" class="w-full h-full object-cover absolute inset-0" />
                   <div class="relative text-center p-2" style="color:{{food.text-color}}">
                     <p  class="heading text-sm">
@@ -449,6 +449,15 @@ seo:
         .menu-section h3 {
           font-size: 3rem;  
         }
+
+        .menu-section .text-sm {
+          font-size: 0.9rem;
+        }
+
+      .menu-section .text-xs {
+        font-size: 0.7reml;
+      }
+      
         @media (min-width: 768px) {
         .menu-section h3 {
           font-size: 4rem;
