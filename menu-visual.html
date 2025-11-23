@@ -382,7 +382,7 @@ seo:
                 {% for food in menu.dishes %}
                 <div class="flex justify-between gap-8">
                   <p>{{food.dish_name}}</p>
-                  <p>{{food.price}}</p>
+                  <p class="">{{food.price}}</p>
                 </div>
                 {% if food.extra %}
                 <p>{{food.extra}}</p>
@@ -396,10 +396,10 @@ seo:
                 <div class="relative flex justify-center items-end" style="aspect-ratio: 3/4;">
                   <img src="{{food.image | default: '/uploads/placeholder.jpg'}}" alt="{{food.dish_name}}" class="w-full h-full object-cover absolute inset-0" />
                   <div class="relative text-center p-2" style="color:{{food.text-color}}">
-                    <p  class="heading">
+                    <p  class="heading text-sm">
                           {{food.dish_name}}
                         </p>
-                        <p  class="heading">
+                        <p  class="heading text-xs">
                           {{food.price}}
                         </p>
                       </div>
