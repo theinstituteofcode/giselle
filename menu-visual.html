@@ -330,18 +330,22 @@ seo:
 
     <!-- menu fun -->
     <section class="sticky top-0 z-20 px-0 md:py-4 base-section menu-nav showing-image-menu">
-      <div class="mx-(--side-padding) border-b border-dark flex justify-between items-center">
+      <div class="mx-(--side-padding) flex justify-between items-center">
         <h2>Menu</h2>
         <div class="grid grid-cols-2 gap-8">
           {% include svg-images/text-menu-icon.html width="45px" %}
           {% include svg-images/image-menu-icon.html width="45px" %}
         </div>
       </div>
+      
+      {% comment %}
       <div class="flex flex-nowrap overflow-scroll px-(--side-padding)">
         {% for menu in page.menus %}
         <a class="{% if forloop.first %} pl-0 {% endif %} button whitespace-nowrap" href="#{{menu.name | replace: ' ',''}}">{{menu.name}}</a>
         {% endfor %}
       </div>
+      {% endcomment %}
+      
       <div>
         <span>
 
@@ -378,7 +382,7 @@ seo:
                 {% for food in menu.dishes %}
                 <div class="flex justify-between gap-8">
                   <p>{{food.dish_name}}</p>
-                  <p>{{food.price}}</p>
+                  <p class="">{{food.price}}</p>
                 </div>
                 {% if food.extra %}
                 <p>{{food.extra}}</p>
@@ -389,13 +393,13 @@ seo:
 
               <div class="image-grid grid-cols-3 hidden overflow-scroll max-w-full px-(--side-padding)">
                 {% for food in menu.dishes %}
-                <div class="relative flex justify-center items-end" style="aspect-ratio: 3/4;">
+                <div class="relative flex justify-center items-end" style="aspect-ratio: 2/3;">
                   <img src="{{food.image | default: '/uploads/placeholder.jpg'}}" alt="{{food.dish_name}}" class="w-full h-full object-cover absolute inset-0" />
                   <div class="relative text-center p-2" style="color:{{food.text-color}}">
-                    <p  class="heading">
+                    <p  class="heading text-sm">
                           {{food.dish_name}}
                         </p>
-                        <p  class="heading">
+                        <p  class="heading text-xs">
                           {{food.price}}
                         </p>
                       </div>
@@ -445,6 +449,15 @@ seo:
         .menu-section h3 {
           font-size: 3rem;  
         }
+
+        .menu-section .text-sm {
+          font-size: 0.9rem;
+        }
+
+      .menu-section .text-xs {
+        font-size: 0.7reml;
+      }
+      
         @media (min-width: 768px) {
         .menu-section h3 {
           font-size: 4rem;
