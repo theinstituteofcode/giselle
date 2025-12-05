@@ -12,6 +12,10 @@
     --breakpoint-md: 48rem;
     --breakpoint-lg: 64rem;
     --breakpoint-2xl: 96rem;
+    --text-xs: 0.9rem;
+    --text-xs--line-height: calc(1 / 0.75);
+    --text-sm: 1.3rem;
+    --text-sm--line-height: 1.1;
     --text-lg: 3rem;
     --text-lg--line-height: 1.1;
     --font-weight-bold: 700;
@@ -578,9 +582,6 @@
   .border-\[\#9f4837\] {
     border-color: #9f4837;
   }
-  .border-dark {
-    border-color: var(--color-dark);
-  }
   .bg-cover {
     background-size: cover;
   }
@@ -702,6 +703,14 @@
   }
   .text-right {
     text-align: right;
+  }
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
+  .text-xs {
+    font-size: var(--text-xs);
+    line-height: var(--tw-leading, var(--text-xs--line-height));
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
