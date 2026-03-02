@@ -12,10 +12,19 @@ blog-info:
         of new Mediterranean restaurant Giselle Bali. 
 footer:
     background: dark
+seo:
+    title: Is This Canggu’s Hottest New Table? | Giselle Bali Review
+    description: >
+        A first look at Giselle Bali — Canggu’s new Mediterranean seafood
+        restaurant. Riviera flavours, bold dishes, and nights that stretch well
+        past sunset.
+    image: /uploads/prawns-oysters-raw-scallop-smoked-salmon-tuna-tartare.jpg
+    author:
+    crawl: true
 ---
 # Is this Canggu’s hottest new table?
 
-*Review by Tina May*
+*Guest Review*
 
 Bali’s food scene is, in my humble opinion one of the best in the world. We’re spoilt to have an incredibly highest density of restaurants & bars within just a few kilometers, blending local and global culinary talent with the freshest produce and ingredients. So when a new restaurant opens up, you know it has to be good - really good - to make an impact on the dining scene here. Backed by a team with serious credentials (with each of the founders having run award-winning restaurants in Bangkok before their move to Bali) I was curious to see (and taste) Giselle for myself, so I went along last weekend to the opening of their new Mediterranean restaurant & bar.
 
@@ -63,4 +72,4 @@ If the opening weekend was any sign, Canggu’s newest Mediterranean restaurant 
 
 A taste of what’s to come? Expect evenings that start at sunset and end somewhere between the last sip of Negroni and the first hint of sunrise.
 
-*Written by Tina May, long term Bali expat & passionate foodie.*
+*Written by a long term Bali expat & passionate foodie.*

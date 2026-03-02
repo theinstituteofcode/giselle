@@ -10,6 +10,14 @@ blog-info:
     description: How to refresh after a scorching summer’s day in Batu Balong.
 footer:
     background: dark
+seo:
+    title: Cool Down in Canggu – How to Escape the Bali Heat
+    description: >-
+        From sea swims and icy coconuts to shaded spas and sunset spritzes,
+        here’s how to cool down in Canggu when the heat peaks.
+    image: /assets/images/giselle-website-3.jpg
+    author:
+    crawl: true
 ---
 # Cool down in Canggu
 

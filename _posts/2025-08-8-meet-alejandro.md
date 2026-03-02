@@ -4,12 +4,20 @@ title: meet the chef Antoine Darquin
 banner:
     heading: meet the chef
     text-color: '#9f4837'
-    image: /assets/images/giselle-website-4.jpg
+    image: /assets/images/beach-cafe.png
 blog-info:
-    image: /assets/images/giselle-website-4.jpg
+    image: /assets/images/beach-cooking.jpg
     description: The thought behind the menu that’s bringing the Riviera to Bali.
 footer:
     background: dark
+seo:
+    title: Meet Antoine Darquin – Head Chef at Giselle Bali
+    description: >-
+        Meet Antoine Darquin, the French chef behind Giselle Bali. From Michelin
+        kitchens to a Mediterranean seafood playground in Canggu.
+    image: /assets/images/beach-cooking.jpg
+    author:
+    crawl: true
 ---
 **Meet our head chef, Antoine Darquin**
 

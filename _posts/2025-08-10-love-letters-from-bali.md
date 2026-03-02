@@ -12,6 +12,14 @@ blog-info:
         to share
 footer:
     background: dark
+seo:
+    title: A Foodie’s Guide to 24 Hours in Canggu | Where to Eat
+    description: >
+        From sunrise coffee to late-night cocktails, discover where to eat in
+        Canggu with this curated 24-hour foodie guide.
+    image: /uploads/prawns-oysters-raw-scallop-smoked-salmon-tuna-tartare.jpg
+    author:
+    crawl: true
 ---
 # A Foodie’s Guide to 24 Hours in Canggu
 
