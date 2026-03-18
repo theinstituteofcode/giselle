@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'A foodies guide to 2Best Romantic Restaurants in Canggu '
+title: Canggu Romantic Restaurant
 banner:
   heading: Best Romantic Restaurants in Canggu
   text-color: '#9f4837'
