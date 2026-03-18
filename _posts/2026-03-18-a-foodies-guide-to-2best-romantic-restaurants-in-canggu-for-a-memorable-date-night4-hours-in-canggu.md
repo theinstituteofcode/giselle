@@ -27,8 +27,6 @@ Canggu has emerged as one of Bali’s most vibrant dining destinations, a neighb
 
 Whether you are organising a first date, celebrating an anniversary, or simply looking for a beautiful evening for two, this guide covers the best romantic restaurants in Canggu, starting with the one that sets the benchmark.
 
-![](/uploads/dscf1162-1.jpg)
-
 ## Giselle Bali, The Best Romantic Restaurant in Canggu
 
 If there is one restaurant in Canggu that consistently earns its place on every romantic dining shortlist, it is Giselle Bali. Inspired by the elegance of the Mediterranean Riviera, Giselle offers a dining experience that is simultaneously intimate, sophisticated, and perfectly adapted to the tropical Bali setting.
