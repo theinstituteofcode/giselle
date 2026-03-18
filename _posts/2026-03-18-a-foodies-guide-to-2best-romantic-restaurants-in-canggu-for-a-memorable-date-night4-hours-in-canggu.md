@@ -6,7 +6,7 @@ banner:
   text-color: '#9f4837'
   image: /uploads/dscf1162-2.jpg
 blog-info:
-  image: /assets/images/giselle-website-11.jpg
+  image: /uploads/dscf1162-1.jpg
   description: >-
     Moments from the islands of the gods that lit up our soul that we want to
     share
