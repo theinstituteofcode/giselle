@@ -1,8 +1,6 @@
 ---
 layout: post
-title: >-
-  A foodies guide to 2Best Romantic Restaurants in Canggu for a Memorable Date
-  Night4 hours in Canggu
+title: 'A foodies guide to 2Best Romantic Restaurants in Canggu '
 banner:
   heading: Best Romantic Restaurants in Canggu
   text-color: '#9f4837'
