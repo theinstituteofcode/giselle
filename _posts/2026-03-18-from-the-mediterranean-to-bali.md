@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From the Mediterranean to Bali
+title: from the mediterranean to bali
 banner:
   heading: from the mediterranean to bali
   text-color: '#e8d8b1'
