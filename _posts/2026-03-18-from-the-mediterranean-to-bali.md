@@ -3,7 +3,7 @@ layout: post
 title: From the Mediterranean to Bali
 banner:
   heading: from the mediterranean to bali
-  text-color: '#9f4837'
+  text-color: '#e8d8b1'
   image: /uploads/kc-giselle-insta-r5p-0057-hdr-3.jpg
 blog-info:
   image: /assets/images/giselle-website-11.jpg
