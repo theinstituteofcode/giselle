@@ -48,14 +48,6 @@ At the core of Giselle’s identity is its bold, creative interpretation of Medi
 
 Seafood is central to the Giselle experience. From delicate crudo and sashimi-style preparations to dramatic flambéed whole fish and fire-grilled mains, the ocean is always present on the plate. The menu also celebrates the art of the shared table: dishes are designed to travel across the table, encouraging guests to explore, taste, and discover together.
 
-### Key Pillars of Giselle’s Menu
-
-* Fresh seafood: raw bar, crudo, tartare, and grilled whole fish
-* Homemade pasta: crafted daily using premium European technique
-* Sharing plates: designed for social, communal dining
-* Fire-touched mains: wood-fired and open-flame preparations
-* Curated desserts and cocktail pairings for a complete dining journey
-
 ![](/uploads/kc-giselle-insta-r5p-0019-2.jpg)
 
 ## The Giselle Dining Experience: More Than Just a Meal
