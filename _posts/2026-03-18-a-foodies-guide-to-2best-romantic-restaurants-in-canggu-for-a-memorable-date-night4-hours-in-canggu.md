@@ -6,7 +6,7 @@ title: >-
 banner:
   heading: Best Romantic Restaurants in Canggu
   text-color: '#9f4837'
-  image: /uploads/dscf1162.jpg
+  image: /uploads/kc-giselle-insta-r5p-0057-hdr-4.jpg
 blog-info:
   image: /assets/images/giselle-website-11.jpg
   description: >-
