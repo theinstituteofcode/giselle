@@ -4,7 +4,7 @@ title: 'A foodies guide to 2Best Romantic Restaurants in Canggu '
 banner:
   heading: Best Romantic Restaurants in Canggu
   text-color: '#9f4837'
-  image: /uploads/kc-giselle-insta-r5p-0057-hdr-5.jpg
+  image: /uploads/dscf1162-2.jpg
 blog-info:
   image: /assets/images/giselle-website-11.jpg
   description: >-
