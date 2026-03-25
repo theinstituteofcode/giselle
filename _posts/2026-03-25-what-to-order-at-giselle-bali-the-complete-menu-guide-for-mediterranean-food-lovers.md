@@ -24,11 +24,11 @@ seo:
   author:
   crawl: true
 ---
-When visiting Giselle Bali, one of Canggu's most acclaimed Mediterranean restaurants, the menu presents a wealth of outstanding choices. From ocean-fresh crudo to slow-cooked lamb shoulder and indulgent chocolate soufflé, every dish reflects a commitment to premium ingredients, precise technique, and the spirit of Mediterranean sharing culture.
+When visiting Giselle Bali, one of Canggu’s most acclaimed Mediterranean restaurants, the menu presents a wealth of outstanding choices. From ocean-fresh crudo to slow-cooked lamb shoulder and indulgent chocolate soufflé, every dish reflects a commitment to premium ingredients, precise technique, and the spirit of Mediterranean sharing culture.
 
-If it's your first visit, or if you want to ensure you order the very best the kitchen has to offer, this complete guide to the Giselle Bali menu is exactly what you need.
+If it’s your first visit, or if you want to ensure you order the very best the kitchen has to offer, this complete guide to the Giselle Bali menu is exactly what you need.
 
-# **Start Strong: Giselle's Signature Bites and Starters**
+# **Start Strong: Giselle’s Signature Bites and Starters**
 
 Every great Mediterranean dinner begins with bites that set the tone, light, flavour-forward, and designed to open the appetite rather than close it. At Giselle, the starter selection achieves this beautifully.
 
@@ -42,13 +42,13 @@ Delicate sea bream meets bright, citrusy yuzu in this refined and refreshing tar
 
 ### **Smoked Whitefish Croquettes**
 
-Golden, comforting croquettes with a subtle smokiness that lingers pleasantly. These pair exceptionally well with Giselle's aperitif selection or a glass of crisp white wine.
+Golden, comforting croquettes with a subtle smokiness that lingers pleasantly. These pair exceptionally well with Giselle’s aperitif selection or a glass of crisp white wine.
 
 ![](/uploads/kc-client-insta-r5q-0764-1.jpg)
 
-## **The Crudo and Raw Seafood Bar, Giselle's Oceanic Heart**
+## **The Crudo and Raw Seafood Bar, Giselle’s Oceanic Heart**
 
-Seafood is the soul of Mediterranean cuisine, and nowhere is this clearer than at Giselle's crudo bar. The raw and lightly cured seafood dishes showcase premium fish at their purest, minimal intervention, maximum flavour.
+Seafood is the soul of Mediterranean cuisine, and nowhere is this clearer than at Giselle’s crudo bar. The raw and lightly cured seafood dishes showcase premium fish at their purest, minimal intervention, maximum flavour.
 
 ### **Bluefin Tuna Tartare with Yuzu and Avocado**
 
@@ -64,13 +64,13 @@ Sweet, tender Hokkaido scallop paired with cooling cucumber and delicate butterm
 
 ### **Seafood Platter for Sharing**
 
-If you are dining with a group or simply want to explore the full breadth of Giselle's raw bar, the seafood platter is the definitive choice. Oysters, prawns, scallops, salmon tartare, and tuna tartare arrive together, a generous and theatrical centrepiece designed for sharing.
+If you are dining with a group or simply want to explore the full breadth of Giselle’s raw bar, the seafood platter is the definitive choice. Oysters, prawns, scallops, salmon tartare, and tuna tartare arrive together, a generous and theatrical centrepiece designed for sharing.
 
 ![](/uploads/kc-client-insta-r5q-0263-1.jpg)
 
 ## **Homemade Pasta, Mediterranean Comfort Elevated**
 
-Giselle's pasta is crafted in-house and represents one of the menu's most beloved categories. If you appreciate pasta made with care, rolled, cut, and filled with precision, these dishes will not disappoint.
+Giselle’s pasta is crafted in-house and represents one of the menu’s most beloved categories. If you appreciate pasta made with care, rolled, cut, and filled with precision, these dishes will not disappoint.
 
 ### **Lemon Butter Linguine with Crab and Parmesan**
 
@@ -78,11 +78,11 @@ This is the dish that regulars return for again and again. Zesty lemon, sweet Du
 
 ### **Agnolotti with Truffle, Paris Ham, and Comté**
 
-Indulgent and deeply flavoured, the agnolotti delivers truffle's earthiness balanced by the salinity of Paris ham and the nutty depth of Comté cheese. A standout for guests who appreciate classic European technique.
+Indulgent and deeply flavoured, the agnolotti delivers truffle’s earthiness balanced by the salinity of Paris ham and the nutty depth of Comté cheese. A standout for guests who appreciate classic European technique.
 
 ## **Mains That Define the Giselle Experience**
 
-Giselle's main courses showcase the kitchen at full confidence, bold flavours, fire-touched preparations, and dishes that command the table.
+Giselle’s main courses showcase the kitchen at full confidence, bold flavours, fire-touched preparations, and dishes that command the table.
 
 ### **Grilled Octopus with Guanciale, Miso Corn, and Smoked Potato Espuma**
 
@@ -94,11 +94,11 @@ A celebration of Mediterranean restraint. The grouper is slow-confited in premiu
 
 ### **Mediterranean Spiced Confit Lamb Shoulder with Candied Fruits**
 
-Slow-cooked lamb shoulder scented with Mediterranean spices and balanced by the gentle sweetness of candied fruits. This is a dish for wine pairing, select a full-bodied red from Giselle's cellar and let the evening slow right down.
+Slow-cooked lamb shoulder scented with Mediterranean spices and balanced by the gentle sweetness of candied fruits. This is a dish for wine pairing, select a full-bodied red from Giselle’s cellar and let the evening slow right down.
 
 ### **Wood-Fired Chicken with Basquaise Condiment**
 
-Giselle's command of fire cookery is evident in this wood-fired chicken. Deeply smoky, judiciously seasoned, and paired with a vibrant Basquaise condiment that adds depth and character. A surprisingly crowd-pleasing main for a menu with so much seafood.
+Giselle’s command of fire cookery is evident in this wood-fired chicken. Deeply smoky, judiciously seasoned, and paired with a vibrant Basquaise condiment that adds depth and character. A surprisingly crowd-pleasing main for a menu with so much seafood.
 
 ![](/uploads/kc-client-insta-r5q-0547.jpg)
 
@@ -111,11 +111,11 @@ Giselle's command of fire cookery is evident in this wood-fired chicken. Deeply 
 
 ## **Desserts: A Refined and Memorable Finish**
 
-Mediterranean dessert philosophy favours balance over excess, indulgent where it counts, light where it needs to be. Giselle's dessert selection honours this tradition.
+Mediterranean dessert philosophy favours balance over excess, indulgent where it counts, light where it needs to be. Giselle’s dessert selection honours this tradition.
 
 ### **Grand Cru Chocolate Soufflé with Olive Oil and Sea Salt**
 
-Rich, intense, and structurally perfect, this soufflé is elevated by an unexpected touch of olive oil and sea salt that adds a distinctly Mediterranean character. This is the dessert to order if you're celebrating something.
+Rich, intense, and structurally perfect, this soufflé is elevated by an unexpected touch of olive oil and sea salt that adds a distinctly Mediterranean character. This is the dessert to order if you’re celebrating something.
 
 ### **Fresh Strawberries with Chantilly**
 
@@ -123,7 +123,7 @@ A beautifully simple dessert that lets quality ingredients speak without interfe
 
 ## **Drinks: Wines, Cocktails, and Aperitifs Worth Exploring**
 
-Giselle's drinks programme is curated to complement the coastal, Mediterranean flavours of the food. The wine list spans crisp mineral whites, ideal alongside crudo and seafood, through to structured reds that hold their own with lamb and octopus. The cocktail menu draws on Mediterranean botanicals and citrus, and the aperitif selection is a particular highlight for those who want to start the evening properly.
+Giselle’s drinks programme is curated to complement the coastal, Mediterranean flavours of the food. The wine list spans crisp mineral whites, ideal alongside crudo and seafood, through to structured reds that hold their own with lamb and octopus. The cocktail menu draws on Mediterranean botanicals and citrus, and the aperitif selection is a particular highlight for those who want to start the evening properly.
 
 ## **Why the Giselle Bali Menu Is Worth Your Time in Canggu**
 
