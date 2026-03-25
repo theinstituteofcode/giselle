@@ -6,7 +6,7 @@ banner:
   text-color: '#9f4837'
   image: /uploads/kc-client-insta-r5p-1583-1.jpg
 blog-info:
-  image: /assets/images/giselle-website-11.jpg
+  image: /uploads/kc-client-insta-r5p-1583-2.jpg
   description: >-
     Moments from the islands of the gods that lit up our soul that we want to
     share
