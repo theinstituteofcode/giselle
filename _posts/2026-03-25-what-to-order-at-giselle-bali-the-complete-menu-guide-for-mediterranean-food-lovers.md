@@ -1,8 +1,6 @@
 ---
 layout: post
-title: >-
-  What to Order at Giselle Bali: The Complete Menu Guide for Mediterranean Food
-  Lovers
+title: what to order ?
 banner:
   heading: what to order ?
   text-color: '#9f4837'
