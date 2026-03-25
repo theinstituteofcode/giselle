@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Where to Eat Near Batu Bolong and Tanah Barak, Canggu
+title: where to eat near batu bolong and tanah barak, canggu
 banner:
   heading: batu bolong and tanah barak
   text-color: '#9f4837'
