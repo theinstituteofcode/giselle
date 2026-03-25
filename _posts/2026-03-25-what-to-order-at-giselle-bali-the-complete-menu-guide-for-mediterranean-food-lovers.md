@@ -4,7 +4,7 @@ title: what to order ?
 banner:
   heading: what to order ?
   text-color: '#9f4837'
-  image: /uploads/kc-client-insta-r5p-1583.jpg
+  image: /uploads/kc-client-insta-r5p-1583-1.jpg
 blog-info:
   image: /assets/images/giselle-website-11.jpg
   description: >-
