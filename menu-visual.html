@@ -20,30 +20,34 @@ burger-menu:
 menus:
   - name: bites
     dishes:
-      - dish_name: 'Truffle Croque Toast '
-        image: /uploads/Truffle-Croque-Toast.png
-        price: 75
-        text-color: '#fff'
+      - dish_name: Fresh Truffle Toast
+        image: /uploads/kc-giselle-fullres-r5p-2495.jpg
+        price: 240
+        text-color: '#ffffff'
       - dish_name: Beef Tartare, Potato Millefeuilles
         image: /uploads/beef-tartare.png
-        price: 65
+        price: 60
         text-color: '#9f4837'
       - dish_name: Sea Bream Tartelette, Yuzu
         image: /uploads/sea-bream-tartelette-yuzu-1.jpg
-        price: 45
+        price: 40
         text-color: '#9f4837'
       - dish_name: Marinated Sweet Peppers, Herb Butter, Sardine
         image: /uploads/marinated-sweet-peppers-herb-butter-sardine.jpg
-        price: 45
+        price: 40
         text-color: '#9f4837'
       - dish_name: Smoked Whitefish Croquettes
         image: /uploads/smoked-whitefish-croquettes.jpg
-        price: 65
+        price: 80
         text-color: '#9f4837'
-      - dish_name: Oyster, Leche de Tigre, Tomatoes, Basil oil
-        image: /uploads/oyster-leche-de-tigre-tomatoes-basil-oil-1.jpg
-        price: 130
+      - dish_name: Fresh Oyster Fine de Claire n°3, Aguachile, Calamansi
+        image: /uploads/kc-giselle-fullres-r5p-2515-1.jpg
+        price: 120
         text-color: '#9f4837'
+      - dish_name: Gougère Comté Cheese & Ibérico Ham
+        image: ''
+        price: 120
+        text-color:
   - name: plates
     dishes:
       - dish_name: Bread and Butter
@@ -109,11 +113,11 @@ menus:
         price: 190
         text-color: '#9f4837'
       - dish_name: Smoked Salmon Trout, Avocado, Jalapeno
-        image: '/uploads/smoked-salmon-trout-avocado.png'
+        image: /uploads/smoked-salmon-trout-avocado.png
         price: 250
         text-color:
-      - dish_name: 'Hamachi, Pomelo, Grapes, Dashi'
-        image: '/uploads/hamachi.jpg'
+      - dish_name: Hamachi, Pomelo, Grapes, Dashi
+        image: /uploads/hamachi.jpg
         price: 150
         text-color:
       - dish_name: Mahi Mahi, Straciatella, Tarragon,  Red Shiso
@@ -143,7 +147,7 @@ menus:
         price: 870
         text-color: '#fff'
       - dish_name: Wagyu Tomahawk MB8
-        image: 
+        image:
         price: 250 per 100gr
         text-color: '#9f4837'
   - name: wood - fired
@@ -198,18 +202,18 @@ menus:
         image: /uploads/foie-gras-risotto-truffle-parsley-cream-1.jpg
         price: 330
         text-color: '#fff'
-      - dish_name: 'Gnocchi, Sage Pesto, Ricotta'
+      - dish_name: Gnocchi, Sage Pesto, Ricotta
         image: /uploads/gnocchi-sage-pesto-ricotta.jpg
         price: 110
         text-color: '#fff'
   - name: sides
     dishes:
       - dish_name: "Mashed Potatoes\_"
-        image: 
+        image:
         price: 70
         text-color: '#9f4837'
       - dish_name: "French Fries\_"
-        image: 
+        image:
         price: 40
         text-color: '#9f4837'
       - dish_name: "Wood Fired Broccolini, Egg Yolk, Miso\_"
@@ -221,7 +225,7 @@ menus:
         price: 50
         text-color: '#fff'
       - dish_name: Riviera Salad, Ventresca, Green Beans, Baby Potatoes
-        image: 
+        image:
         price: 80
         text-color: '#9f4837'
   - name: dessert
@@ -242,34 +246,34 @@ menus:
         image: /uploads/profiteroles.jpg
         price: 80
         text-color: '#fff'
-      - dish_name: "Tiramisu"
+      - dish_name: Tiramisu
         image: /uploads/tiramisu.jpg
         price: 70
         text-color: '#fff'
   - name: dessert cocktails
     dishes:
       - dish_name: Espresso - Vodka, Coffee, Kahlua
-        image: 
+        image:
         price: 130
         text-color: '#9f4837'
       - dish_name: Latte - Vodka, Bailey’s, Frangelico, Coffee, Cream
-        image: 
+        image:
         price: 150
         text-color: '#9f4837'
       - dish_name: Chocolate - Cognac, Chocolate, Caramel, Coffee
-        image: 
+        image:
         price: 130
         text-color: '#9f4837'
       - dish_name: Amaretto Sour
-        image: 
+        image:
         price: 160
         text-color: '#9f4837'
       - dish_name: Chocolate Old Fashioned
-        image: 
+        image:
         price: 130
         text-color: '#9f4837'
       - dish_name: B52 - A kiss with heat
-        image: 
+        image:
         price: 70
         text-color: '#9f4837'
 footer:
@@ -382,7 +386,7 @@ seo:
                 {% for food in menu.dishes %}
                 <div class="flex justify-between gap-8">
                   <p>{{food.dish_name}}</p>
-                  <p class="">{{food.price}}</p>
+                  <p>{{food.price}}</p>
                 </div>
                 {% if food.extra %}
                 <p>{{food.extra}}</p>
@@ -396,10 +400,10 @@ seo:
                 <div class="relative flex justify-center items-end" style="aspect-ratio: 2/3;">
                   <img src="{{food.image | default: '/uploads/placeholder.jpg'}}" alt="{{food.dish_name}}" class="w-full h-full object-cover absolute inset-0" />
                   <div class="relative text-center p-2" style="color:{{food.text-color}}">
-                    <p  class="heading text-sm">
+                    <p class="heading text-sm">
                           {{food.dish_name}}
                         </p>
-                        <p  class="heading text-xs">
+                        <p class="heading text-xs">
                           {{food.price}}
                         </p>
                       </div>
@@ -418,7 +422,7 @@ seo:
             {% endfor %}
             
 
-            <script>
+            <script type='text/javascript' src='https://cloudcannon-production.s3.us-west-1.amazonaws.com/gAU0B-CtWjfBYYLaIrpeEfG2E3VKNJk2S_wbVZHghISIpKRP7LGdTXuTzVrMA5qnjsF55SGWZTXB2aDMQMucfvjlbkzigkhgPyGfo7HZud3YOxyFqSE_VFRoWtowiglwEEDY9mSxT-__srPE071VBcndt860wwgqIzGg5uzUMQh4G4Hvtfjs3RmfvBMl0RlEkdfCopK2dCmXMU1gHRrN_Y89-Waorc2tFnTkb5g_AXD37eUFYUW-bopvtvvX8VKtjdm-gfIJjIDhy3sMb57kpV1F2yC3cZj3t1wBx8qpVYLvVP3LuNCf6pFzFCk4d4L-V9jMUH-WPxFiKFolBaLl7uzUIZBq5gIClLMuPZ9NygswurJ2mHrLKWR0hB2JEvocIVmZujFDAQ_HmzLFdFqVE9YiiUFAhfqJigJUHGqxaLC2V_3sVrksegxgVSDINzhRbGhjbJFQ0gi15VOufIdmC3UM3n45UBc_8LGUtLW5DM4jjIdtka5NYcjkJ3jHv1TgmKQLEBfP_nvdEN84cuzT1QYAooglvcjM9AaR2_ph7EJB7_kzlZDictQ1_o8oM8RUuarVt5leRPjUEDi4H3mPv3LKsziTm-Vvn6T7__sc-gYd5Q4brjw2_gjnmjQdxrnQjo5_8g1t3h1mtyc1LAqFtStFwjQslVe_itpHPCLlfbOO9JCzrCjXxW1jJ9SCEYH0Cnd5kc1lzoAo0ijAlOjBdObfGqmPoSGhrw2Un0G3ZMjVzeZgLzJA_dr8ctDJeIlk_SIel4XwcB1AqEa2fA9bo5znyI8vryLhIpGRnrU0anQfhYdUcONFJeIxWyCaz6pSOWsWHg1EnKLljeuNxF1F6cIDl4mlTIshstq_j0dLOqsJNlHtwjtpGsF8_fY3PGXl8CskBzhhpY7M-LmmLpvrnEhG_nKAovv1AsJ857ge3l_fAV6p-CNc5VXKfHB9elVNKambbGys2iT3ZDu_RU-_yfay-rilLT9-W0T1se0r9CbyZQaAHVY2lyneFyD8n0iQ7i349c6XhKoJ7Dxrmu700FNnqM8kA8iMF-ngle0MkHdR9G3Abtjib8FMFuJOHhQUzdvmCYMi_I8drOsTtlTono_yM8Uwlrb_twGFbHkh-jLeX7OS9GYFh0Pm6pHfuZFu4tT0cOmzJsvpRE3IDjMQrH2lAv8BD-0xCd8cNLFWiQp2ySAsqtuIsttDp_Ydo87CyFdu-WpyHaCSnI-A_cC0jit_oEEsiALoYpEIXJnH8bzefEcx1SX-Eyp2t3MQl62T6IeynlZFjVOPf1GcGkimvqmrSKnIzXfkvufOXwRZvnHyXgpcPcQU3y5gUGSDXA3sA0A_wo8IwKz6zdWvp293KZTI5q5WomZleYHdT-ps7ky0ZBT-M-i2MiINjv719a3Sa2jrw4GlwhX-zUEs6y2UUNSPGmf80SQNvWtV8bbwDUj0ght6lAEh1MJHY3YxWRv-f0Xs9hrcAzBkpWpFyf0YHpR8OUV2E4naDTizL1v-fXXgAJaMKWB-hpT2SjY0ixn14MdQ7BhFg_Ulclbjhl4ifzZvLHo3hW3DSkevH_PI24G8RewhfXOe8xj7sDt6P0Ot8tYimu5iNtRvBkVcwLATggbPJyRl-sm8TPe184NzFFc6oUm-wljKi5YaghKSzgPKvF831U0T7G2Av4kLPqS-hxGQAYc7cVWM3KEyQqVFz7bzbjVEhgIvuXOOSV9dusdZn44hdj5drT4U6SXYQlAXpETDbDb8iNXoZUatk82XaCdegO-ocNc60ZnnQF_mJfgwHnbhpWDXIDjvdkclXIRjZGG991Ci9qg35LTSggDR9_CRCIo5gJszMdigd6aBem7XWWjqg3S_xchjO-mRrz4sBBr8MMQjlCcQYlM2e5GRXqdqtr_d72pYPlokb5370CflNaWulf1Tt2gaXCgqLXQMTGdyDM3alLI4iSnvL4eV4dSqhcAYkLM_ZHJu-oBIx_A8bjMexx0YzoozOLcr85f--NxY1VOu35Tc_8Yge1YjGtnbNUKbAGNAfQ0gvqH65yymFLNHqKdnBI8lbT73vinCD5UYB0MAv5lln-uD6x63-1G0tk3I_gC_HVygWauiU1K7W9sh11QG_IOmjc2ubZ6JEvZ5xEXehdYjofwb0GMkYoBRIgnvZYIRA7L0OAIWsST6Xc9sHHYqI3iA_kVpbwTYDsaSLSJRB2JtK83oAt28YaXk6C7XZ8CgeYsQX7vz4rz-zbG-pbvZb_yZ_yCzLxAB8reSILOJn43QuF6K2w6ImQIFd8VxW0YZGWbgUss6kw_ysNsO5IuPsVJbQaEGtPpPlGxDzoVfulppA2MobymaxU8akYEI-BzlGVAbSzKoT4zhKkgFDqZqYIwshbPX8muzpdHSEWD39BIxFlrParPfwb_WhCIXQUwKgZDSX97Qhyoa47JOSu-_Bbi_TzbVyKb--hXNzUZis4SAk4UbikrbTxIM3clv2XmX0w1Uls_J5FuzGAwmayO-'></script><script>
               const menuNav = document.querySelector('.menu-nav');
               const textMenuIcon = document.querySelector('.text-menu-icon');
               const imageMenuIcon = document.querySelector('.image-menu-icon');
