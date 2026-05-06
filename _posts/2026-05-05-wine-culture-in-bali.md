@@ -4,9 +4,9 @@ title: Wine Culture in Bali
 banner:
   heading: Wine Culture in Bali
   text-color: '#e8d8b1'
-  image: /uploads/kc-giselle-insta-r5p-0479.jpg
+  image: /uploads/design-sans-titre-23.png
 blog-info:
-  image: /uploads/kc-giselle-insta-r5p-0479-2.jpg
+  image: /uploads/design-sans-titre-23-1.png
   description: >-
     Explore Bali's emerging wine culture and discover how to pair Mediterranean
     cuisine with the perfect bottle in Canggu.
@@ -18,7 +18,7 @@ seo:
     Explore Bali's emerging wine culture and discover how to pair Mediterranean
     cuisine with the perfect bottle in Canggu. From curated wine lists to
     seafood pairings, your guide to wine in Bali starts here.
-  image: /uploads/kc-giselle-insta-r5p-0479-3.jpg
+  image: /uploads/design-sans-titre-23-2.png
   author:
   crawl: true
 ---
