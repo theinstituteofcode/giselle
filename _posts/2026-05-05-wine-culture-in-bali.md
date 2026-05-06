@@ -3,7 +3,7 @@ layout: post
 title: Wine Culture in Bali
 banner:
   heading: Wine Culture in Bali
-  text-color: '#e8d8b1'
+  text-color: '#9f4837'
   image: /uploads/design-sans-titre-23.png
 blog-info:
   image: /uploads/design-sans-titre-23-1.png
