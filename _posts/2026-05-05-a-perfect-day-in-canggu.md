@@ -4,9 +4,9 @@ title: A Perfect Day in Canggu
 banner:
   heading: A Perfect Day in Canggu
   text-color: '#9f4837'
-  image: /uploads/design-sans-titre-24-1.png
+  image: /uploads/design-sans-titre-24-1-2.png
 blog-info:
-  image: /uploads/design-sans-titre-24-1-1.png
+  image: /uploads/design-sans-titre-24-1-3.png
   description: >-
     Plan your ideal day in Canggu, Bali, from sunrise surf sessions and artisan
     coffee to boutique shopping and a Mediterranean dinner 
