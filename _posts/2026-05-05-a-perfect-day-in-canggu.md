@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Perfect Day in Canggu
+title: perfect day in canggu
 banner:
   heading: A Perfect Day in Canggu
   text-color: '#9f4837'
