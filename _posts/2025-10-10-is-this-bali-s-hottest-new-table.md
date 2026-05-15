@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Is this Bali''s hottest new table? '
+title: 'bali''s hottest new table? '
 banner:
     heading: it begins
     text-color: '#ffffff'
