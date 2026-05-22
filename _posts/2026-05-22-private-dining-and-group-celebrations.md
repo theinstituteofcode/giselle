@@ -34,7 +34,7 @@ Part of Canggu’s appeal lies in its range. Guests can arrive from villas, hote
 
 That wider environment matters because it changes what guests want from dinner. They are not looking only for a reservation. They are looking for a setting capable of carrying an occasion.
 
-![](/uploads/image-4.png)
+![](/uploads/image-5.png)
 
 ## **What Makes a Great Group Dining Experience**
 
