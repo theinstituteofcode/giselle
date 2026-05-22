@@ -21,10 +21,6 @@ seo:
   author:
   crawl: true
 ---
-In a restaurant landscape where the word ‘fresh’ appears on every menu and ‘local’ has become a marketing shortcut, the real question is a simpler one: where does the food actually come from? At Giselle Bali, that question has a direct answer, and it shapes every dish on the table.
-
-From the bluefin tuna in the crudo bar to the aged Parmesan folded into the pasta, Giselle’s sourcing philosophy reflects something less fashionable but more meaningful than a buzzword: the belief that quality begins long before the kitchen.
-
 ## **The Challenge of Sourcing Well in Bali**
 
 Bali is one of the most exciting dining destinations in the world, but it is also one of the most demanding environments in which to source premium ingredients consistently. The tropical climate, the distance from European producers, and the complexity of import logistics create real constraints that most restaurant menus quietly conceal.
