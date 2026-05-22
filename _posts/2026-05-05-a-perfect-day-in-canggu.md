@@ -6,7 +6,7 @@ banner:
   text-color: '#9f4837'
   image: /uploads/design-sans-titre-24-1-2.png
 blog-info:
-  image: /uploads/design-sans-titre-24-1-3.png
+  image: /uploads/design-sans-titre-24-1-2.png
   description: >-
     Plan your ideal day in Canggu, Bali, from sunrise surf sessions and artisan
     coffee to boutique shopping and a Mediterranean dinner 
@@ -17,7 +17,7 @@ seo:
   description: >
     From sunrise coffee to late-night cocktails, discover where to eat in Canggu
     with this curated 24-hour foodie guide.
-  image: /uploads/kc-giselle-insta-r5p-0479-1.jpg
+  image: /uploads/design-sans-titre-24-1-2.png
   author:
   crawl: true
 ---
