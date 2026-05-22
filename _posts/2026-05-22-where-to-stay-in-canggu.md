@@ -20,7 +20,7 @@ seo:
     Find the best places to stay in Canggu, Bali, from boutique hotels near Batu
     Bolong to luxury villas steps from Jalan Tanah Barak. Your guide to
     accommodation in Bali’s most exciting neighbourhood.
-  image: /uploads/kc-giselle-insta-r5q-0064-2.jpg
+  image: /uploads/kc-giselle-insta-r5q-0064-3.jpg
   author:
   crawl: true
 ---
