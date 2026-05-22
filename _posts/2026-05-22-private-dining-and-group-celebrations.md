@@ -4,9 +4,9 @@ title: private dining and group celebrations
 banner:
   heading: private dining and group celebrations
   text-color: '#e8d8b1'
-  image: /uploads/design-sans-titre-30.png
+  image: /uploads/design-sans-titre-30-3.png
 blog-info:
-  image: /uploads/design-sans-titre-30-1.png
+  image: /uploads/design-sans-titre-30-4.png
   description: Planning a birthday, anniversary, or group dinner in Canggu?
 footer:
   background: dark
